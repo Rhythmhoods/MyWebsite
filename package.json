@@ -1,0 +1,10 @@
+{
+  "name": "pulsenest-media-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static conversion-focused website for PulseNest Media",
+  "scripts": {
+    "start": "bash -lc 'python3 -m http.server ${PORT:-8000}'",
+    "preview": "bash -lc 'python3 -m http.server ${PORT:-8000}'"
+  }
+}
